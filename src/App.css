@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background-color: #3e4450;
+  height: 100%;
+  
+}
+
+.Header {
+ background-color: #282c34;
+ color: white;
+ font-size: calc(10px + 2vmin);
+ align-items: center;
+ 
+}
+.headerText{
+  color: white;
+}
+
+.divTable{
+  display: table;
+  max-width: 20em;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.divTableRow{
+  display: table-row;
+}
+
+.divTableCell,
+.divTableHead{
+  display: table-cell;
+  border: 1px solid #000000;
+  padding: 3px 10px;
+}
+
+.divTableHeading{
+  background-color: aliceblue;
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableFoot{
+  background-color: aliceblue;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody{
+  display: table-row-group;
+}
+
+.divTableCell:nth-child(odd){
+  background-color: aliceblue;
+}
+
+.container{
+  display: flex;
+  opacity: 0.9;
+  justify-content: center;
+}
+img{
+  height: 8em;
+}
+input{
+  box-sizing: border-box;
+  font-size: 2rem;
+  padding: 1rem;
+  display: block;
+  margin: 2rem auto;
+}
